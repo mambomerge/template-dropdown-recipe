@@ -1,0 +1,37 @@
+{
+  "sampleDropDown": {
+    "description": "This is a sample configuration to have Mambo Merge display a dropdown",
+    "lastModifiedDate": "2021-05-05",
+    "lastModifiedBy": "Mambo Merge",
+    "displayType": "dropdown",
+    "templates": [
+      {
+        "apiOnly": false,
+        "label": "Button 1",
+        "templateId": "YOUR_FILE_ID_HERE",
+        "fileName": "{{Name}}.docx",
+        "showPreview": false,
+        "convertToPDF": false,
+        "destination": "attachment"
+      },
+      {
+        "apiOnly": false,
+        "label": "Button 2",
+        "templateId": "YOUR_FILE_ID_HERE",
+        "fileName": "{{Name}}.docx",
+        "showPreview": false,
+        "convertToPDF": false,
+        "destination": "attachment"
+      },
+      {
+        "apiOnly": false,
+        "label": "Button 3",
+        "templateId": "YOUR_FILE_ID_HERE",
+        "fileName": "{{Name}}.docx",
+        "showPreview": false,
+        "convertToPDF": false,
+        "destination": "attachment"
+      }
+    ]
+  }
+}
